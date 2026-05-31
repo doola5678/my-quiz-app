@@ -21,4 +21,9 @@ export default defineConfig({
       }
     })
   ],
+  preview: {
+    allowedHosts: [
+      'my-quiz-app-4-4ehp.onrender.com'
+      ]
+  }
 })
